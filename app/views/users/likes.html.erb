@@ -1,0 +1,7 @@
+<h1>お気に入り一覧</h3>
+
+<ul>
+  <% @likes.each do |message| %>
+    <li><%= message.content %></li>
+  <% end %>
+</ul>
